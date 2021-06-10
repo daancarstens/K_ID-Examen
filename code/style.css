@@ -104,7 +104,8 @@ body {
     text-align: center;
     cursor: pointer;
     margin-top: 275px;
-    width: 30%;
+    min-width: 30%;
+    max-width: 80%;
     height: 15%;
     font-size: 100%;
     border-radius: 20px;
@@ -270,4 +271,26 @@ body {
   .buttonpaye:hover {
     background-color: #555;
     color: white;
+  }
+
+  .boxt {
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-height: 40%;  
+    max-height: 100%;
+  }
+
+  .boxtht {
+    font-size: 180%;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .boxtnt {
+    font-size: 140%;
+    padding: 2%;
+    text-align: center;
   }
